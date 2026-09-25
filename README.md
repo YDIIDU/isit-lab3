@@ -66,6 +66,7 @@
 
 ### Диаграмма взаимодействия (Sequence Diagram)
 
+<img width="632" height="412" alt="component" src="https://github.com/user-attachments/assets/6f39780a-4770-4957-af9a-a1539ba005c2" />
 
 ---
 
@@ -103,33 +104,13 @@ project/
 
 ### 6.1. Диаграмма архитектуры системы
 
-```mermaid
-flowchart TB
-    U([Пользователь])
-    U --> F
+<img width="356" height="503" alt="arhitectur" src="https://github.com/user-attachments/assets/9bf1dac7-44af-486d-a135-fd5ad1257ab1" />
 
-    subgraph F[Frontend - клиентская часть]
-        WEB[Веб-интерфейс]
-    end
-
-    F -->|HTTP запрос| B
-
-    subgraph B[Backend - серверная часть]
-        API[API]
-        BL[Бизнес-логика]
-        API --> BL
-    end
-
-    B -->|SQL| D
-
-    subgraph D[Database - база данных]
-        STORE[(Хранилище данных)]
-    end
-```
 
 ### 6.2. Диаграмма взаимодействия
 
----
+<img width="632" height="412" alt="component" src="https://github.com/user-attachments/assets/cd516c9e-99b6-41ba-aa8a-7a89cf1265f2" />
+
 
 ## 9. Описание API (домашняя доработка)
 
